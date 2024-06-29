@@ -18,7 +18,7 @@ class MagicalArena {
 
         console.log(`Attacker rolls ${attackRoll}, Defender rolls ${defenseRoll}`);
         console.log(`Attack damage: ${attackDamage}, Defense strength: ${defenseStrength}`);
-        console.log(`Defender health reduced by ${damageTaken} to ${defender.health}\n`);
+        console.log(`Defender health is reduced by ${damageTaken} to ${defender.health}\n`);
     }
 
     static battle(playerA, playerB) {
